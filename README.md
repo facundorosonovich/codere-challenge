@@ -17,8 +17,8 @@ brew install nvm
 nvm install --lts && nvm use --lts
 
 # clone the project
-git clone git@github.com:facundorosonovich/coders-challenge.git
-cd coders-challenge
+git clone git@github.com:facundorosonovich/codere-challenge.git
+cd codere-challenge
 
 # install dependencies
 yarn install
