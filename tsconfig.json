@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@tests/*": ["tests/*"]
+    },
+    "esModuleInterop": true,
+    "lib": ["decorators", "dom", "es5", "scripthost", "es2015.collection"]
+  },
+  "typedocOptions": {
+    "entryPoints": ["./src"],
+    "out": "./docs",
+    "entryPointStrategy": "Expand"
+  },
+  "exclude": ["node_modules"]
+}
